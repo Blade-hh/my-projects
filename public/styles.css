@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1f24;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00d09c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #2a2c32;
+    color: #00d09c;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    background-color: #2a2c32;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #242529;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    td, th {
+        font-size: 14px;
+    }
+}
+
+/* Custom Styles for Table Data */
+th, td {
+    font-size: 16px;
+}
+
+td {
+    font-weight: normal;
+    color: #e6e6e6;
+}
+
+.buy-price {
+    color: #4caf50;
+}
+
+.sell-price {
+    color: #f44336;
+}
+
+.last-price {
+    font-weight: bold;
+    color: #00d09c;
+}
+
+/* Button or Toggle for Currency */
+.currency-toggle {
+    display: inline-block;
+    background-color: #00d09c;
+    color: #1e1f24;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.currency-toggle:hover {
+    background-color: #00b380;
+}
